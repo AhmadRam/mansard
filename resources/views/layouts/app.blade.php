@@ -64,7 +64,7 @@
     <div class="wrapper clearfix">
         <header id="header">
             <div id="headerbar" class="clearfix">
-                <a id="logo" href="../index.html">
+                <a id="logo" href="{{route('index',app()->getLocale())}}">
                     <img alt="Logo Mansard" src="{{asset('images/deco-site/Logo_Mansard.jpg') }}" class="size-auto" height="80" width="250" /></a>
             </div>
             <div id="menubar" class="clearfix">
