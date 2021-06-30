@@ -8,15 +8,15 @@
 	</header>
 	<div class="content clearfix">
 		<div class="product_left">
-			<p>An active care that helps to restore the brightness and glow of a face.</p>
-			<p>This facial invigorates the skin and helps to restore tone and vitality.</p>
-			<p>The skin is radiant, pores are visibly refined, and complexion is smooth.</p>
+			<p>{{__('An active care that helps to restore the brightness and glow of a face.')}}</p>
+			<p>{{__('This facial invigorates the skin and helps to restore tone and vitality.')}}</p>
+			<p>{{__('The skin is radiant, pores are visibly refined, and complexion is smooth.')}}</p>
 			<p>&nbsp;</p>
-			<p><strong>Benefits :</strong></p>
-			<p>- Erases signs of fatigue and tension</p>
-			<p>- Oxygens and revitalizes</p>
-			<p>- Moisturizes and nourishes</p>
-			<p>- Restores radiance and freshness</p>
+			<p><strong>{{__('Benefits : ')}}</strong></p>
+			<p>- {{__('Erases signs of fatigue and tension')}}</p>
+			<p>- {{__('Oxygens and revitalizes')}}</p>
+			<p>- {{__('Moisturizes and nourishes')}}</p>
+			<p>- {{__('Restores radiance and freshness')}}</p>
 		</div>
 		<div class="product_right">
 			<div class="product_img"><img src="../../../images/Bio_Visage/eclat.jpg" alt="eclat" width="300" height="450" /></div>

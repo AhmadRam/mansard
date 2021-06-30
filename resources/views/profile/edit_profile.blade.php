@@ -10,7 +10,7 @@
                     <form method="POST" action="{{ url(app()->getLocale(),'profile/edit_profile') }}/{{Auth::user()->id}}">
                         {{csrf_field()}}
                         <div class="form-group row">
-                            <label for="identityNumber" class="col-md-4 col-form-label text-md-right">{{ __('identity Number') }}</label>
+                            <label for="identityNumber" class="col-md-4 col-form-label text-md-right">{{ __('Identity Number') }}</label>
                             <div class="col-md-6">
                                 <input type="text" name="identityNumber" id="identityNumber" class="form-control input-lg formIletisim" value="{{$user->identityNumber}}" autocomplete="off" value="" />
                             </div>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="Phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone Number') }}</label>
+                                <label for="Phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone') }}</label>
                                 <div class="col-md-6">
                                     <input id="phoneNumber" type="text" name="phone" value="{{$user->phone}}" class="form-control input-lg formIletisim" />
                                 </div>

@@ -8,16 +8,16 @@
 	</header>
 	<div class="content clearfix">
 		<div class="product_left">
-			<p>This treatment helps to firm and tighten the skin giving it youthfull appearance.</p>
-			<p>The facial features are liften dramatically while the oval face is redesigned. More smooth, more toned, your skin is glowing with vitality.</p>
+			<p>{{__('This treatment helps to firm and tighten the skin giving it youthfull appearance.')}}</p>
+			<p>{{__('The facial features are liften dramatically while the oval face is redesigned. More smooth, more toned, your skin is glowing with vitality.')}}</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<p><strong>Benefits : </strong></p>
-			<p>- Redefines facial contours</p>
-			<p>- Increases tone and firmness of tissue</p>
-			<p>- Protects against the aging</p>
-			<p>- Attenuates lines and wrinkles</p>
-			<p>- Makes the skin look younger and smother</p>
+			<p><strong>{{__('Benefits : ')}}</strong></p>
+			<p>- {{__('Redefines facial contours')}}</p>
+			<p>- {{__('Increases tone and firmness of tissue')}}</p>
+			<p>- {{__('Protects against the aging')}}</p>
+			<p>- {{__('Attenuates lines and wrinkles')}}</p>
+			<p>- {{__('Makes the skin look younger and smother')}}</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>

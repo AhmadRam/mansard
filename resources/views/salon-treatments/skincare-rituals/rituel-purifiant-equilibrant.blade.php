@@ -8,14 +8,14 @@
 	</header>
 	<div class="content clearfix">
 		<div class="product_left">
-			<p>An intensive corrective treatment, focused on the imperfections associated with excess sebum: oily or combination skin, irritation, pimples, blackheads, enlarged pores.</p>
-			<p>It restores the skin giving it a healthy glow. The skin is fresh, detoxified and gently cleansed without drying.</p>
+			<p>{{__('An intensive corrective treatment, focused on the imperfections associated with excess sebum: oily or combination skin, irritation, pimples, blackheads, enlarged pores.')}}</p>
+			<p>{{__('It restores the skin giving it a healthy glow. The skin is fresh, detoxified and gently cleansed without drying.')}}</p>
 			<p>&nbsp;</p>
-			<p><strong>Benefits : </strong></p>
-			<p>- Purifies and makes healthier</p>
-			<p>- Detoxifies - Matifies</p>
-			<p>- Reduces inflammation and blemishes</p>
-			<p>- Heals</p>
+			<p><strong>{{__('Benefits : ')}}</strong></p>
+			<p>- {{__('Purifies and makes healthier')}}</p>
+			<p>- {{__('Detoxifies - Matifies')}}</p>
+			<p>- {{__('Reduces inflammation and blemishes')}}</p>
+			<p>- {{__('Heals')}}</p>
 		</div>
 		<div class="product_right">
 			<p><img src="../../../images/Bio_Visage/purete.jpg" alt="purete" width="300" height="450" />&nbsp;</p>
