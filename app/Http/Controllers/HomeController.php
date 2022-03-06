@@ -99,6 +99,19 @@ class HomeController extends Controller
         return view('salon-treatments.skincare-rituals.rituel-revitalisant-eclat-intense');
     }
 
+    public function getAboutUsPage()
+    {
+        return view('cms.about-us');
+    }
+    public function getDeliveryPage()
+    {
+        return view('cms.delivery');
+    }
+    public function getDistancePage()
+    {
+        return view('cms.distance');
+    }
+
     public function sendEmail(Request $request)
     {
         $request->validate([

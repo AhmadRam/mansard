@@ -345,9 +345,29 @@
         <!-- maininner end -->
     </div>
     <footer id="footer">
-
-
         <div class="module deepest">
+
+            <div style="width:100%;display:flex;">
+                <div class="text-left" style="width:50%;">
+                    <h3>BİLGİLER</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="level1 item237" href="{{ route('about-us', app()->getLocale()) }}">Hakkımızda</a>
+                        </li>
+                        <li><a class="level1 item237"
+                                href="{{ route('delivery-and-returns', app()->getLocale()) }}">Teslimat ve İade</a></li>
+                        <li><a class="level1 item237"
+                                href="{{ route('distance-sales-agreement', app()->getLocale()) }}">Mesafeli Satış
+                                Sözleşmesi</a></li>
+                        <li><a class="level1 item237" href="{{ route('contact', app()->getLocale()) }}">iletişim</a>
+                        </li>
+    
+                    </ul>
+                </div>
+                <div style="width:50%;margin-top:40px;">
+                    <img width="75%" src="{{ asset('../images/pay.png') }}" class="m-auto img-responsive">
+                </div>
+            </div>
+
             <ul class="menu menu-line">
                 <li class="level1 item237"><span class="separator level1"><span>Copyright © Mansard</span>
                     </span>

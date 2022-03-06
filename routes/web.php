@@ -66,6 +66,9 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/contact', 'HomeController@contact')->name('contact');
     Route::get('brand/history', 'HomeController@history')->name('history');
     Route::get('brand/our-values', 'HomeController@ourValues')->name('our-values');
+    Route::get('/about-us', 'HomeController@getAboutUsPage')->name('about-us');
+    Route::get('/delivery-and-returns', 'HomeController@getDeliveryPage')->name('delivery-and-returns');
+    Route::get('/distance-sales-agreement', 'HomeController@getDistancePage')->name('distance-sales-agreement');
 
     Route::get('salon-treatments/soin-bio-visage', 'HomeController@soinBioVisage')->name('soin-bio-visage');
     Route::get('salon-treatments/spa-ritual/discovery-rythmes-of-brazil', 'HomeController@discoveryRythmesOfBrazil')->name('discovery-rythmes-of-brazil');
